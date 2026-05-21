@@ -26,7 +26,7 @@ Publicly available transcriptomic datasets are notoriously messy. During this an
 ## Results & Key Findings
 
 ### 1. Differential Expression Profile
-Our linear model successfully isolated highly significant transcriptomic shifts. Below is the Volcano Plot highlighting significantly upregulated genes (red) and downregulated genes (blue) during active flares.
+Our linear model successfully isolated highly significant transcriptomic shifts. Attached in the files is the Volcano Plot highlighting significantly upregulated genes (red) and downregulated genes (blue) during active flares.
 
 ### 2. Top Monitored Portfolio Genes
 The analysis revealed a strict biological profile marking the shift to an active disease state:
