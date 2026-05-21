@@ -28,21 +28,24 @@ Publicly available transcriptomic datasets are notoriously messy. During this an
 ### 1. Differential Expression Profile
 Our linear model successfully isolated highly significant transcriptomic shifts. Below is the Volcano Plot highlighting significantly upregulated genes (red) and downregulated genes (blue) during active flares.
 
-Volcano Plot.pdf
-https://github.com/DandersonX/IBD-Transcriptomics-Analysis/blob/db551194512d0f27d6ee9c554e74474a151c338c/Volcano%20Plot.pdf
+### 2. Top Monitored Portfolio Genes
+The analysis revealed a strict biological profile marking the shift to an active disease state:
 
 ### 2. Top Monitored Portfolio Genes
+
 The analysis revealed a strict biological profile marking the shift to an active disease state:
 
 | Ensembl ID | Gene Symbol | LogFC | Adj. P-Value | Biological Function |
 | :--- | :--- | :--- | :--- | :--- |
-| ENSG00000136770 | **IL4R** | +0.17 | ~1.1e-16 | Interleukin-4 Receptor; drives mucosal inflammatory signaling. |
-| ENSG00000123352 | **CD14** | +0.21 | ~3.1e-15 | Monocyte marker; recognizes bacterial lipopolysaccharides. |
-| ENSG00000103257 | **LILRB2** | +0.60 | ~1.0e-14 | Regulates macrophage activation in inflamed tissue. |
-| ENSG00000133067 | **LIMS1** | -0.48 | ~5.8e-14 | Downregulated structural element; indicates epithelial barrier breakdown. |
+| `ENSG00000136770` | **IL4R** | +0.17 | ~1.1e-16 | Interleukin-4 Receptor; drives mucosal inflammatory signaling. |
+| `ENSG00000123352` | **CD14** | +0.21 | ~3.1e-15 | Monocyte marker; recognizes bacterial lipopolysaccharides. |
+| `ENSG00000103257` | **LILRB2** | +0.60 | ~1.0e-14 | Regulates macrophage activation in inflamed tissue. |
+| `ENSG00000133067` | **LIMS1** | -0.48 | ~5.8e-14 | Downregulated structural element; indicates epithelial barrier breakdown. |
 ---
 
 ## How to Run This Code
-The complete pipeline script can be found in `analysis_pipeline.R`. To reproduce these results, clone this repository and run:
+The complete, fully commented pipeline script can be reviewed directly in [analysis_pipeline.R](analysis_pipeline.R). 
+
+To reproduce these results locally, clone this repository and run:
 ```R
 source("analysis_pipeline.R")
