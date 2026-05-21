@@ -1,6 +1,6 @@
 # Identifying Transcriptomic Drivers of Active Inflammatory Bowel Disease (IBD)
 
-An end-to-end computational biology pipeline using R and `limma` to analyze high-throughput transcriptomic data. This study screens **1,832 clinical biopsy samples** across **25,970 genes** to evaluate structural and immunological changes during active IBD flares.
+An end-to-end computational biology pipeline using R and `limma` to analyze high-throughput transcriptomic data. This study screens **1,832 clinical biopsy samples** across **25,970 genes** to evaluate structural and immunological changes during active inflammatory bowel disease flares(IBD).
 
 ---
 
