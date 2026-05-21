@@ -39,10 +39,6 @@ The analysis revealed a strict biological profile marking the shift to an active
 | ENSG00000123352 | **CD14** | +0.21 | ~3.1e-15 | Monocyte marker; recognizes bacterial lipopolysaccharides. |
 | ENSG00000103257 | **LILRB2** | +0.60 | ~1.0e-14 | Regulates macrophage activation in inflamed tissue. |
 | ENSG00000133067 | **LIMS1** | -0.48 | ~5.8e-14 | Downregulated structural element; indicates epithelial barrier breakdown. |
-
-### 3. Biological Pathways Enriched
-*(Optional: Insert 1-2 sentences here about your pathway analysis, e.g., "Functional enrichment showed massive activation of cytokine-cytokine receptor interaction and extracellular matrix degradation pathways." )*
-
 ---
 
 ## How to Run This Code
